@@ -90,7 +90,7 @@ void arr_stack::pop()
 void arr_stack::display()
 {
     for (int i=0;i<=top;i++)
-       cout<<ptr[i];
+       cout<<ptr[i]<<" ";
 }
 arr_stack::~arr_stack()
 {
